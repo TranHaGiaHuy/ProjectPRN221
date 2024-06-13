@@ -1,0 +1,58 @@
+﻿<Window x:Class="Celicious_Manager_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Celicious_Manager_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <SolidColorBrush x:Key="PrimaryBlueColor" Color="#34BEF6"/>
+        <SolidColorBrush x:Key="SecondaryBlueColor" Color="#EFF2FF"/>
+        <SolidColorBrush x:Key="PrimaryTextColor" Color="#FFFFFF"/> 
+        <SolidColorBrush x:Key="SecondaryTextColor" Color="#BBC1D1"/>
+        <SolidColorBrush x:Key="PrimamryGrayColor" Color="#BBC1D1"/>
+    </Window.Resources>
+    <Grid Background="{DynamicResource PrimaryBlueColor}">
+        <Border CornerRadius="10"
+                Padding="10"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+            <TabControl Width="600" Height="450">
+                <TabItem Header="Home" Style="{DynamicResource TabItemSyle}">
+                    <Grid>
+                        <TextBlock Text="Home"
+                               Foreground="{DynamicResource SecondaryTextColor}"
+                               FontSize="20"
+                               FontWeight="Bold"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"/>
+
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Home" Style="{DynamicResource TabItemSyle}">
+                    <Grid>
+                        <TextBlock Text="Home2"
+                Foreground="{DynamicResource SecondaryTextColor}"
+                FontSize="20"
+                FontWeight="Bold"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"/>
+
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Home" Style="{DynamicResource TabItemSyle}">
+                    <Grid>
+                        <TextBlock Text="Home3"
+                Foreground="{DynamicResource SecondaryTextColor}"
+                FontSize="20"
+                FontWeight="Bold"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"/>
+
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Border>
+    </Grid>
+</Window>

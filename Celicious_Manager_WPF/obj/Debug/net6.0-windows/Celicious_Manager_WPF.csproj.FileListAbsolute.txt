@@ -1,0 +1,4 @@
+D:\SU24\PRN221\ProjectCelicious\Celicious_Manager_WPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\SU24\PRN221\ProjectCelicious\Celicious_Manager_WPF\obj\Debug\net6.0-windows\App.g.cs
+D:\SU24\PRN221\ProjectCelicious\Celicious_Manager_WPF\obj\Debug\net6.0-windows\Celicious_Manager_WPF_MarkupCompile.cache
+D:\SU24\PRN221\ProjectCelicious\Celicious_Manager_WPF\obj\Debug\net6.0-windows\Celicious_Manager_WPF_MarkupCompile.lref
